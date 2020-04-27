@@ -8,5 +8,8 @@ def key_for_min_value(name_hash)
       value = number
     end
   end
-  name_hash.collect do |
+  name_hash.collect do |thing, number|
+    if number == value
+      thing
+    end
 end

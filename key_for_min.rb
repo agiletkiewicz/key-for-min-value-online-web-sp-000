@@ -9,9 +9,5 @@ def key_for_min_value(name_hash)
       value = number
     end
   end
-  name_hash.each do |thing, number|
-    if number == value
-      array_for_min << thing
-    end
-  end
+  
 end

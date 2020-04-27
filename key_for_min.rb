@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
       value = number
     end
   end
-  
+  name_hash.collect do |
 end

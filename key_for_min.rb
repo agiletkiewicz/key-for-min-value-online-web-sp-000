@@ -14,7 +14,7 @@ def key_for_min_value(name_hash)
       min = thing 
     end
   end
-  if name_hash == []
+  if name_hash == {}
     return nil 
     else 
       return min
